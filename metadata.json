@@ -1,0 +1,6 @@
+{
+  "name": "IrishCareConnect",
+  "description": "Caregiving shift diary, clinical flowsheet, and team handover for Mrs. Brimberg at 480 Park.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

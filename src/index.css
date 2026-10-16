@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    --font-hand: 'Caveat', cursive, system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #1e293b;
+    background-color: #f1f5f9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-mono,
+  .tabular-nums {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .font-handwriting {
+    font-family: var(--font-hand);
+    font-feature-settings: "calt" 1;
+  }
+}
+
+/* Ruled paper background effect for clinical notes */
+.bg-notepad-ruled {
+  background-color: #ffffff;
+  background-image: 
+    linear-gradient(90deg, transparent 54px, rgba(239, 68, 68, 0.2) 54px, rgba(239, 68, 68, 0.2) 56px, transparent 56px),
+    linear-gradient(#f8fafc 1px, transparent 1px);
+  background-size: 100% 100%, 100% 32px;
+  line-height: 32px;
+}
+
+.bg-flowsheet-grid {
+  background-color: #ffffff;
+  background-image: 
+    linear-gradient(to right, rgba(226, 232, 240, 0.6) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.6) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar for clinical feeds */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}

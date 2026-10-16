@@ -1,0 +1,6 @@
+{
+  "summary":  "Comprehensive implementation plan for IrishCareConnect:\n- Renaming app to IrishCareConnect across metadata, title, and UI.\n- Updating resident profile for Mrs. Brimberg at 480 Park (turning 93 this December).\n- Configuring care team profiles: Head Nurse Margaret Brady, plus team members Lisa Peters, Fiona Byrne, Helene Cashin, and Pauline Gilroy.\n- Shared iPad / Mobile login switcher with 1-tap switch and mobile head nurse access.\n- Daily midnight liquid reset with 24-hour hydration tracking and historical daily logs.\n- Calendar date picker & Previous/Next day page flipping tabs to review prior shift notes.\n- Persistent local storage across dates with backup/restore capabilities.",
+  "updatedAt":  "2026-10-09T03:36:55.424086499Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
